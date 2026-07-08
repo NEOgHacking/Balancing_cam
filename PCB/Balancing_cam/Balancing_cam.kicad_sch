@@ -1,0 +1,384 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "4f3cb630-ed40-44c6-96ef-050dfa6679a9")
+	(paper "A4")
+	(lib_symbols)
+	(bus
+		(pts
+			(xy 63.5 66.04) (xy 82.55 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "440e7cd0-d950-4e0f-953b-6de12210e59f")
+	)
+	(bus
+		(pts
+			(xy 127 67.31) (xy 146.05 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50d62b21-d4b2-4e10-8397-a85d842af806")
+	)
+	(bus
+		(pts
+			(xy 127 86.36) (xy 146.05 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6280f0e1-70ce-4ac1-ba16-52b20dd5d821")
+	)
+	(sheet
+		(at 146.05 82.55)
+		(size 19.05 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "232ccfaa-66e9-445a-8ff7-8fafb59cd86d")
+		(property "Sheetname" "Motor_2"
+			(at 146.05 81.8384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Motor_drivers.kicad_sch"
+			(at 146.05 95.8346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{ADDR}" input
+			(at 146.05 91.44 180)
+			(uuid "c47261f9-8b62-4df6-9efd-824727f34367")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{MOT_CONTROL}" bidirectional
+			(at 146.05 86.36 180)
+			(uuid "b9665f96-2abf-403c-a81e-9dcc346c4238")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{MOT_PINS}" output
+			(at 146.05 88.9 180)
+			(uuid "1ec4ca8a-ab43-4317-a29e-0c485398a4b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Balancing_cam"
+				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 112.395)
+		(size 22.225 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3a1d6516-eaa6-4656-884a-168fca27f337")
+		(property "Sheetname" "Power_in"
+			(at 38.1 111.6834 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_in.kicad_sch"
+			(at 38.1 144.7296 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Balancing_cam"
+				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 82.55 63.5)
+		(size 44.45 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7de04a9d-fd10-4ec8-8d5b-4010f712afb8")
+		(property "Sheetname" "Microcontroller"
+			(at 82.55 62.7884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Microcontroller.kicad_sch"
+			(at 82.55 95.8346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MOT_1{MOT_CONTROL}" bidirectional
+			(at 127 67.31 0)
+			(uuid "a0c9c30c-4fe7-4c31-968e-81a7bf848c71")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOT_2{MOT_CONTROL}" bidirectional
+			(at 127 86.36 0)
+			(uuid "35f93c26-4845-4b64-a7a5-f3647d696e89")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IMU{I2C}" bidirectional
+			(at 82.55 66.04 180)
+			(uuid "b7c827c4-ecf1-46b6-a1bc-fc2177667db3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Balancing_cam"
+				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 146.05 63.5)
+		(size 19.05 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8a519f58-1cea-4f81-be04-058561b76400")
+		(property "Sheetname" "Motor_1"
+			(at 146.05 62.7884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Motor_drivers.kicad_sch"
+			(at 146.05 76.7846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{ADDR}" input
+			(at 146.05 72.39 180)
+			(uuid "8a686414-7c06-403b-abf7-800472f8b588")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{MOT_CONTROL}" bidirectional
+			(at 146.05 67.31 180)
+			(uuid "c3fd6654-09ae-4dac-8f71-ac9472427d57")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{MOT_PINS}" output
+			(at 146.05 69.85 180)
+			(uuid "8206ffae-d01e-4c3a-9e78-75fe7fa40d8b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Balancing_cam"
+				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 63.5)
+		(size 12.7 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "cdb8efdc-63be-43f8-9da6-3c5e9acd017e")
+		(property "Sheetname" "IMU"
+			(at 50.8 62.7884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IMU.kicad_sch"
+			(at 50.8 83.1346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "INT" output
+			(at 63.5 69.85 0)
+			(uuid "16cca780-97e2-4936-83ff-485e5966a4dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{I2C}" bidirectional
+			(at 63.5 66.04 0)
+			(uuid "cae99800-6796-4ab2-8660-89666a09b623")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Balancing_cam"
+				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
