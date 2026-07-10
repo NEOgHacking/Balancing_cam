@@ -446,7 +446,8 @@
       "MOT_CONTROL": [
         "STEP",
         "DIR",
-        "UART",
+        "TX",
+        "RX",
         "EN",
         "DIAG",
         "INDEX"
@@ -456,6 +457,10 @@
         "OA2",
         "OB1",
         "OB2"
+      ],
+      "USB": [
+        "D-",
+        "D+"
       ]
     },
     "connection_grid_size": 50.0,
@@ -498,7 +503,7 @@
         "uuid": "4f3cb630-ed40-44c6-96ef-050dfa6679a9"
       }
     ],
-    "used_designators": "R6-11,R58,R63-64,R68-69,J4,BT1-2,D2-3,L1,#PWR24-36,#PWR111,#PWR116-117,#PWR123-129,#PWR131,#PWR136,#PWR141-142,#PWR146-147,C10-15,C38,C43,C52-61,C63,C68-70,C73-74,U1,U3,TH1",
+    "used_designators": "U1,U4,C5-6,C10-12,#PWR14-15,#PWR24-26,#PWR30,L1",
     "variants": []
   },
   "sheets": [
