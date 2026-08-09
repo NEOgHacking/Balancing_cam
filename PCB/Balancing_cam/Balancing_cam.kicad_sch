@@ -7,7 +7,296 @@
 	(title_block
 		(title "Balancing_cam")
 	)
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 50.8 144.78) (xy 50.8 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "147007fb-38d9-4883-a912-ebe7879d86f0")
+	)
+	(bus
+		(pts
+			(xy 165.1 69.85) (xy 190.5 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24d8933c-8735-4dc7-8edb-886a1c6184ed")
+	)
+	(bus
+		(pts
+			(xy 127 105.41) (xy 146.05 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25dc0dbf-0477-4661-b8ba-62a45f820510")
+	)
+	(wire
+		(pts
+			(xy 63.5 69.85) (xy 82.55 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e006d21-3758-48ce-a67c-188ea5d32fb3")
+	)
+	(bus
+		(pts
+			(xy 165.1 88.9) (xy 190.5 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34375c63-9c17-4cec-b96f-53335c2eebec")
+	)
 	(bus
 		(pts
 			(xy 63.5 66.04) (xy 82.55 66.04)
@@ -17,6 +306,16 @@
 			(type default)
 		)
 		(uuid "440e7cd0-d950-4e0f-953b-6de12210e59f")
+	)
+	(wire
+		(pts
+			(xy 50.8 158.75) (xy 50.8 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d498604-4a4e-4d37-bf21-009efc7ad461")
 	)
 	(bus
 		(pts
@@ -37,6 +336,517 @@
 			(type default)
 		)
 		(uuid "6280f0e1-70ce-4ac1-ba16-52b20dd5d821")
+	)
+	(bus
+		(pts
+			(xy 63.5 91.44) (xy 82.55 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "694ac99c-f806-4359-ab5f-dbd9bb29897e")
+	)
+	(wire
+		(pts
+			(xy 50.8 172.72) (xy 50.8 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d8119ad-bafd-4d63-bf61-616f3d06d553")
+	)
+	(bus
+		(pts
+			(xy 127 107.95) (xy 146.05 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a146328a-264d-406f-90dd-00f8374edd1c")
+	)
+	(wire
+		(pts
+			(xy 63.5 95.25) (xy 82.55 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a90cddbb-5890-4396-97e5-4317fcc9061b")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09f52199-2a92-4065-9010-acd0b5bca468")
+		(property "Reference" "#PWR087"
+			(at 50.8 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c5053df6-953b-4a23-bfad-719b2a49c75a")
+		)
+		(instances
+			(project "Balancing_cam"
+				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9"
+					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 50.8 154.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22429681-c695-480f-89fc-13e85e7d13dc")
+		(property "Reference" "H2"
+			(at 53.34 152.3999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 53.34 154.9399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 50.8 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 50.8 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4f5b508b-8629-494e-b336-49afe5ea0c33")
+		)
+		(instances
+			(project "Balancing_cam"
+				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 50.8 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68f47949-a127-4aa4-8591-8460f1635bc1")
+		(property "Reference" "H1"
+			(at 53.34 138.4299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 53.34 140.9699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 50.8 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 50.8 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a3ea073a-fe07-4b1b-813f-407e5720f67f")
+		)
+		(instances
+			(project "Balancing_cam"
+				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 50.8 168.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92d067ba-55b0-491a-a104-1ee98043494b")
+		(property "Reference" "H3"
+			(at 53.34 166.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 53.34 168.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 50.8 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 50.8 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f44d01ff-88cd-4c5d-a9ac-7ca0712c4c06")
+		)
+		(instances
+			(project "Balancing_cam"
+				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a91deeae-3d5a-4b6d-adf2-8c3bc1d21b87")
+		(property "Reference" "#PWR089"
+			(at 50.8 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "28bb55b1-9b10-4a4a-8391-c2b81578a50b")
+		)
+		(instances
+			(project "Balancing_cam"
+				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9"
+					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 158.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6a236f6-83ac-4381-bea4-032af7a693de")
+		(property "Reference" "#PWR088"
+			(at 50.8 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 163.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "54b2088b-1392-41f7-a988-8ca071bb684e")
+		)
+		(instances
+			(project "Balancing_cam"
+				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9"
+					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(sheet
 		(at 146.05 82.55)
@@ -76,16 +886,6 @@
 				(justify left top)
 			)
 		)
-		(pin "{ADDR}" input
-			(at 146.05 91.44 180)
-			(uuid "c47261f9-8b62-4df6-9efd-824727f34367")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "{MOT_CONTROL}" bidirectional
 			(at 146.05 86.36 180)
 			(uuid "b9665f96-2abf-403c-a81e-9dcc346c4238")
@@ -97,26 +897,26 @@
 			)
 		)
 		(pin "{MOT_PINS}" output
-			(at 146.05 88.9 180)
-			(uuid "1ec4ca8a-ab43-4317-a29e-0c485398a4b6")
+			(at 165.1 88.9 0)
+			(uuid "9ae177d6-3c80-41f3-b7a1-a12c422b2673")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances
 			(project "Balancing_cam"
 				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9"
-					(page "6")
+					(page "3")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 38.1 112.395)
-		(size 22.225 31.75)
+		(at 38.1 88.9)
+		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -131,7 +931,7 @@
 		)
 		(uuid "3a1d6516-eaa6-4656-884a-168fca27f337")
 		(property "Sheetname" "Power_in"
-			(at 38.1 111.6834 0)
+			(at 38.1 88.1884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -142,7 +942,7 @@
 			)
 		)
 		(property "Sheetfile" "Power_in.kicad_sch"
-			(at 38.1 144.7296 0)
+			(at 38.1 114.8846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -150,6 +950,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "{USB}" bidirectional
+			(at 63.5 91.44 0)
+			(uuid "d5ae1eed-1b7c-4abc-8b05-5819293f6490")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FAN" input
+			(at 63.5 95.25 0)
+			(uuid "ab38f209-08a4-4ffe-b76e-c154076f982b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -162,7 +982,7 @@
 	)
 	(sheet
 		(at 82.55 63.5)
-		(size 44.45 31.75)
+		(size 44.45 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -188,7 +1008,7 @@
 			)
 		)
 		(property "Sheetfile" "Microcontroller.kicad_sch"
-			(at 82.55 95.8346 0)
+			(at 82.55 114.8846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -228,10 +1048,60 @@
 				(justify left)
 			)
 		)
+		(pin "{USB}" bidirectional
+			(at 82.55 91.44 180)
+			(uuid "c1af2ab4-1d52-4fa5-b2cc-2be551e37af7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CTRL{UART}" bidirectional
+			(at 127 105.41 0)
+			(uuid "d96fb955-8dd0-40ba-b449-582b1f4a2680")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VTX{UART}" bidirectional
+			(at 127 107.95 0)
+			(uuid "f8c7df3d-45dd-4391-ba8e-5e190e6a8202")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IO21" output
+			(at 82.55 95.25 180)
+			(uuid "677b727a-9d74-4972-b495-8545b80e60f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IO36" input
+			(at 82.55 69.85 180)
+			(uuid "2834d8f7-a58d-49d4-8de2-5d0e342b4536")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Balancing_cam"
 				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9"
-					(page "3")
+					(page "6")
 				)
 			)
 		)
@@ -274,19 +1144,9 @@
 				(justify left top)
 			)
 		)
-		(pin "{ADDR}" input
-			(at 146.05 72.39 180)
-			(uuid "8a686414-7c06-403b-abf7-800472f8b588")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "{MOT_CONTROL}" bidirectional
 			(at 146.05 67.31 180)
-			(uuid "c3fd6654-09ae-4dac-8f71-ac9472427d57")
+			(uuid "b1fd5783-ef5f-4bae-bcc4-d420c62f6e7b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -295,13 +1155,13 @@
 			)
 		)
 		(pin "{MOT_PINS}" output
-			(at 146.05 69.85 180)
-			(uuid "8206ffae-d01e-4c3a-9e78-75fe7fa40d8b")
+			(at 165.1 69.85 0)
+			(uuid "ac127bd4-53dc-4473-9f72-a8e69ebf0451")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances
@@ -313,8 +1173,74 @@
 		)
 	)
 	(sheet
-		(at 50.8 63.5)
-		(size 12.7 19.05)
+		(at 146.05 101.6)
+		(size 19.05 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b3bf285e-173c-4276-ac97-f19448f9ab02")
+		(property "Sheetname" "Breakout"
+			(at 146.05 100.8884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Breakout.kicad_sch"
+			(at 146.05 114.8846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CTRL{UART}" bidirectional
+			(at 146.05 105.41 180)
+			(uuid "6fb691c8-a783-4966-9073-95e087a12dd2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VTX{UART}" bidirectional
+			(at 146.05 107.95 180)
+			(uuid "0738b7b2-7011-4c4d-a172-f4ec1487b244")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Balancing_cam"
+				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 63.5)
+		(size 25.4 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -329,7 +1255,7 @@
 		)
 		(uuid "cdb8efdc-63be-43f8-9da6-3c5e9acd017e")
 		(property "Sheetname" "IMU"
-			(at 50.8 62.7884 0)
+			(at 38.1 62.7884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -340,7 +1266,7 @@
 			)
 		)
 		(property "Sheetfile" "IMU.kicad_sch"
-			(at 50.8 83.1346 0)
+			(at 38.1 83.1346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -348,16 +1274,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "INT" output
-			(at 63.5 69.85 0)
-			(uuid "16cca780-97e2-4936-83ff-485e5966a4dd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "{I2C}" bidirectional
@@ -370,10 +1286,132 @@
 				(justify right)
 			)
 		)
+		(pin "INT1" output
+			(at 63.5 69.85 0)
+			(uuid "8932371a-43b6-47bd-9d99-d8d886016acd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Balancing_cam"
 				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 63.5)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ebe462b6-6f01-4c38-9a76-d3bc641349bd")
+		(property "Sheetname" "Motor_connector_1"
+			(at 190.5 62.7884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Motor_connector.kicad_sch"
+			(at 190.5 76.7846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{MOT_PINS}" input
+			(at 190.5 69.85 180)
+			(uuid "bc5faf38-1742-45cd-be66-dbbc751ad000")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Balancing_cam"
+				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 82.55)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f1f331c8-08f7-43f5-94be-a907a264cb62")
+		(property "Sheetname" "Motor_connector_2"
+			(at 190.5 81.8384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Motor_connector.kicad_sch"
+			(at 190.5 95.8346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{MOT_PINS}" input
+			(at 190.5 88.9 180)
+			(uuid "4ef689ca-2fb1-42e3-94e5-64263486a408")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Balancing_cam"
+				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9"
+					(page "8")
 				)
 			)
 		)
