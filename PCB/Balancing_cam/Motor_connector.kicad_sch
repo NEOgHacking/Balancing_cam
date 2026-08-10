@@ -1240,7 +1240,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "11625880-535f-4638-bfda-e99651cb5638")
-		(property "Reference" "C38"
+		(property "Reference" "C40"
 			(at 164.846 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1350,6 +1350,17 @@
 				)
 			)
 		)
+		(property "LCSC#" "C153291"
+			(at 162.56 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "30b71d5b-04cf-49c6-ae22-f49b78d510ae")
 		)
@@ -1359,11 +1370,11 @@
 		(instances
 			(project "Balancing_cam"
 				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9/ebe462b6-6f01-4c38-9a76-d3bc641349bd"
-					(reference "C38")
+					(reference "C40")
 					(unit 1)
 				)
 				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9/f1f331c8-08f7-43f5-94be-a907a264cb62"
-					(reference "C42")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -1380,7 +1391,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3ccacf93-6cb0-448c-930b-04cbeb61b6a8")
-		(property "Reference" "C39"
+		(property "Reference" "C41"
 			(at 173.736 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1490,6 +1501,17 @@
 				)
 			)
 		)
+		(property "LCSC#" "C153291"
+			(at 171.45 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "10c370b5-0719-41cd-a6e5-e6ddbabbdc6a")
 		)
@@ -1499,11 +1521,11 @@
 		(instances
 			(project "Balancing_cam"
 				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9/ebe462b6-6f01-4c38-9a76-d3bc641349bd"
-					(reference "C39")
+					(reference "C41")
 					(unit 1)
 				)
 				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9/f1f331c8-08f7-43f5-94be-a907a264cb62"
-					(reference "C43")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -1520,7 +1542,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "449ad862-6fb7-4f4f-a03d-9e90eb2aad4a")
-		(property "Reference" "L5"
+		(property "Reference" "L6"
 			(at 138.43 82.042 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1648,11 +1670,11 @@
 		(instances
 			(project "Balancing_cam"
 				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9/ebe462b6-6f01-4c38-9a76-d3bc641349bd"
-					(reference "L5")
+					(reference "L6")
 					(unit 1)
 				)
 				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9/f1f331c8-08f7-43f5-94be-a907a264cb62"
-					(reference "L9")
+					(reference "L10")
 					(unit 1)
 				)
 			)
@@ -1669,7 +1691,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4a4d1b94-2090-46eb-a90d-99ff81ddc5be")
-		(property "Reference" "C37"
+		(property "Reference" "C39"
 			(at 155.956 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1779,6 +1801,17 @@
 				)
 			)
 		)
+		(property "LCSC#" "C153291"
+			(at 153.67 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "75f74463-c5d0-4e3c-b9dc-d390c575364e")
 		)
@@ -1788,11 +1821,11 @@
 		(instances
 			(project "Balancing_cam"
 				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9/ebe462b6-6f01-4c38-9a76-d3bc641349bd"
-					(reference "C37")
+					(reference "C39")
 					(unit 1)
 				)
 				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9/f1f331c8-08f7-43f5-94be-a907a264cb62"
-					(reference "C41")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -1809,7 +1842,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "54dd9fab-73ad-4b1e-9cf4-83e796b0657c")
-		(property "Reference" "C40"
+		(property "Reference" "C42"
 			(at 182.626 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1919,6 +1952,17 @@
 				)
 			)
 		)
+		(property "LCSC#" "C153291"
+			(at 180.34 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f15f45be-3589-4b44-b31b-e49ec4a0f8b6")
 		)
@@ -1928,11 +1972,11 @@
 		(instances
 			(project "Balancing_cam"
 				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9/ebe462b6-6f01-4c38-9a76-d3bc641349bd"
-					(reference "C40")
+					(reference "C42")
 					(unit 1)
 				)
 				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9/f1f331c8-08f7-43f5-94be-a907a264cb62"
-					(reference "C44")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -2108,7 +2152,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a2d154b-5df2-4b06-bebb-60ab9c463880")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR081"
 			(at 181.61 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -2168,11 +2212,11 @@
 		(instances
 			(project "Balancing_cam"
 				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9/ebe462b6-6f01-4c38-9a76-d3bc641349bd"
-					(reference "#PWR074")
+					(reference "#PWR081")
 					(unit 1)
 				)
 				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9/f1f331c8-08f7-43f5-94be-a907a264cb62"
-					(reference "#PWR075")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -2189,7 +2233,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "953b2891-4b38-4125-aa4a-47636e858759")
-		(property "Reference" "L7"
+		(property "Reference" "L8"
 			(at 138.43 92.202 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2317,11 +2361,11 @@
 		(instances
 			(project "Balancing_cam"
 				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9/ebe462b6-6f01-4c38-9a76-d3bc641349bd"
-					(reference "L7")
+					(reference "L8")
 					(unit 1)
 				)
 				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9/f1f331c8-08f7-43f5-94be-a907a264cb62"
-					(reference "L11")
+					(reference "L12")
 					(unit 1)
 				)
 			)
@@ -2338,7 +2382,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e802f566-a565-4c4b-bae0-9f2bbc59ed25")
-		(property "Reference" "L8"
+		(property "Reference" "L9"
 			(at 138.43 97.282 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2466,11 +2510,11 @@
 		(instances
 			(project "Balancing_cam"
 				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9/ebe462b6-6f01-4c38-9a76-d3bc641349bd"
-					(reference "L8")
+					(reference "L9")
 					(unit 1)
 				)
 				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9/f1f331c8-08f7-43f5-94be-a907a264cb62"
-					(reference "L12")
+					(reference "L13")
 					(unit 1)
 				)
 			)
@@ -2487,7 +2531,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ef9713f0-71e3-46fa-b303-ec38eb219f1d")
-		(property "Reference" "L6"
+		(property "Reference" "L7"
 			(at 138.43 87.122 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2615,11 +2659,11 @@
 		(instances
 			(project "Balancing_cam"
 				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9/ebe462b6-6f01-4c38-9a76-d3bc641349bd"
-					(reference "L6")
+					(reference "L7")
 					(unit 1)
 				)
 				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9/f1f331c8-08f7-43f5-94be-a907a264cb62"
-					(reference "L10")
+					(reference "L11")
 					(unit 1)
 				)
 			)

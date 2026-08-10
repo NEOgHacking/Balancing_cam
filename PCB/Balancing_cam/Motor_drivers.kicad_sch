@@ -3261,7 +3261,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c696c0a-e527-4423-967e-689c1d572e0c")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR06"
 			(at 123.19 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -3321,11 +3321,11 @@
 		(instances
 			(project "Balancing_cam"
 				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9/232ccfaa-66e9-445a-8ff7-8fafb59cd86d"
-					(reference "#PWR013")
+					(reference "#PWR016")
 					(unit 1)
 				)
 				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9/8a519f58-1cea-4f81-be04-058561b76400"
-					(reference "#PWR03")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -3397,7 +3397,7 @@
 				)
 			)
 		)
-		(property "LCSC#" ""
+		(property "LCSC#" "C14442"
 			(at 123.19 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -3837,6 +3837,17 @@
 				)
 			)
 		)
+		(property "LCSC#" "C14442"
+			(at 162.56 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c86c17b8-ee5f-4973-97ba-a3cf306207da")
 		)
@@ -3868,7 +3879,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4201f1cc-8e25-475d-ada5-e6c91a514fe3")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR08"
 			(at 105.41 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -3928,11 +3939,11 @@
 		(instances
 			(project "Balancing_cam"
 				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9/232ccfaa-66e9-445a-8ff7-8fafb59cd86d"
-					(reference "#PWR015")
+					(reference "#PWR018")
 					(unit 1)
 				)
 				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9/8a519f58-1cea-4f81-be04-058561b76400"
-					(reference "#PWR05")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -4004,7 +4015,7 @@
 				)
 			)
 		)
-		(property "LCSC#" ""
+		(property "LCSC#" "C14442"
 			(at 134.62 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -4153,7 +4164,7 @@
 				)
 			)
 		)
-		(property "LCSC#" ""
+		(property "LCSC#" "C309528"
 			(at 176.53 109.22 90)
 			(hide yes)
 			(show_name no)
@@ -4250,7 +4261,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73adcbbf-e151-469a-a2b1-5b6dea0ca58b")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR09"
 			(at 166.37 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -4310,11 +4321,11 @@
 		(instances
 			(project "Balancing_cam"
 				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9/232ccfaa-66e9-445a-8ff7-8fafb59cd86d"
-					(reference "#PWR016")
+					(reference "#PWR019")
 					(unit 1)
 				)
 				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9/8a519f58-1cea-4f81-be04-058561b76400"
-					(reference "#PWR06")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -4332,7 +4343,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74cdfc90-eb99-42dd-a607-8795f621ec17")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR012"
 			(at 156.21 127 0)
 			(hide yes)
 			(show_name no)
@@ -4392,11 +4403,11 @@
 		(instances
 			(project "Balancing_cam"
 				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9/232ccfaa-66e9-445a-8ff7-8fafb59cd86d"
-					(reference "#PWR019")
+					(reference "#PWR022")
 					(unit 1)
 				)
 				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9/8a519f58-1cea-4f81-be04-058561b76400"
-					(reference "#PWR09")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -4414,7 +4425,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "796747a0-6471-4649-b4c5-335c09fc7c82")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR010"
 			(at 184.15 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -4474,11 +4485,11 @@
 		(instances
 			(project "Balancing_cam"
 				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9/232ccfaa-66e9-445a-8ff7-8fafb59cd86d"
-					(reference "#PWR017")
+					(reference "#PWR020")
 					(unit 1)
 				)
 				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9/8a519f58-1cea-4f81-be04-058561b76400"
-					(reference "#PWR07")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -4496,7 +4507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cf0be87-8412-4700-97b1-78bb2b28dcc5")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR05"
 			(at 161.29 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -4556,11 +4567,11 @@
 		(instances
 			(project "Balancing_cam"
 				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9/232ccfaa-66e9-445a-8ff7-8fafb59cd86d"
-					(reference "#PWR012")
+					(reference "#PWR015")
 					(unit 1)
 				)
 				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9/8a519f58-1cea-4f81-be04-058561b76400"
-					(reference "#PWR02")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -4688,6 +4699,17 @@
 				)
 			)
 		)
+		(property "LCSC#" "C14442"
+			(at 149.86 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2e90c15c-48a8-43dd-8722-070ee7236ece")
 		)
@@ -4719,7 +4741,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acf65492-41c9-426c-aa27-47bf98fb461e")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR013"
 			(at 68.58 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -4779,11 +4801,11 @@
 		(instances
 			(project "Balancing_cam"
 				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9/232ccfaa-66e9-445a-8ff7-8fafb59cd86d"
-					(reference "#PWR020")
+					(reference "#PWR023")
 					(unit 1)
 				)
 				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9/8a519f58-1cea-4f81-be04-058561b76400"
-					(reference "#PWR010")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -4855,7 +4877,7 @@
 				)
 			)
 		)
-		(property "LCSC#" ""
+		(property "LCSC#" "C14442"
 			(at 147.32 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -5007,7 +5029,7 @@
 				)
 			)
 		)
-		(property "LCSC#" ""
+		(property "LCSC#" "C84703"
 			(at 154.94 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -5104,7 +5126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8c7e2ef-b60b-4329-a4f9-05abac704971")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR011"
 			(at 130.81 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -5164,11 +5186,11 @@
 		(instances
 			(project "Balancing_cam"
 				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9/232ccfaa-66e9-445a-8ff7-8fafb59cd86d"
-					(reference "#PWR018")
+					(reference "#PWR021")
 					(unit 1)
 				)
 				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9/8a519f58-1cea-4f81-be04-058561b76400"
-					(reference "#PWR08")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -5239,7 +5261,7 @@
 				)
 			)
 		)
-		(property "LCSC#" ""
+		(property "LCSC#" "C309528"
 			(at 176.53 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -5336,7 +5358,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ccc692ca-069c-493c-82a0-fa3d259fb40c")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR07"
 			(at 161.29 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -5396,11 +5418,11 @@
 		(instances
 			(project "Balancing_cam"
 				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9/232ccfaa-66e9-445a-8ff7-8fafb59cd86d"
-					(reference "#PWR014")
+					(reference "#PWR017")
 					(unit 1)
 				)
 				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9/8a519f58-1cea-4f81-be04-058561b76400"
-					(reference "#PWR04")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -5418,7 +5440,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e44cc243-4d60-4669-8581-9bd665b31a0e")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR04"
 			(at 119.38 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5478,11 +5500,11 @@
 		(instances
 			(project "Balancing_cam"
 				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9/232ccfaa-66e9-445a-8ff7-8fafb59cd86d"
-					(reference "#PWR011")
+					(reference "#PWR014")
 					(unit 1)
 				)
 				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9/8a519f58-1cea-4f81-be04-058561b76400"
-					(reference "#PWR01")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -5847,7 +5869,7 @@
 				)
 			)
 		)
-		(property "LCSC#" ""
+		(property "LCSC#" "C14442"
 			(at 140.97 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -5999,7 +6021,7 @@
 				)
 			)
 		)
-		(property "LCSC#" ""
+		(property "LCSC#" "C57895"
 			(at 166.37 76.2 0)
 			(hide yes)
 			(show_name no)

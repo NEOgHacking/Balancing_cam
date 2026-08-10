@@ -389,7 +389,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09f52199-2a92-4065-9010-acd0b5bca468")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR01"
 			(at 50.8 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -449,7 +449,7 @@
 		(instances
 			(project "Balancing_cam"
 				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9"
-					(reference "#PWR087")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -704,7 +704,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a91deeae-3d5a-4b6d-adf2-8c3bc1d21b87")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR03"
 			(at 50.8 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -764,7 +764,7 @@
 		(instances
 			(project "Balancing_cam"
 				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9"
-					(reference "#PWR089")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -782,7 +782,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6a236f6-83ac-4381-bea4-032af7a693de")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR02"
 			(at 50.8 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -842,7 +842,7 @@
 		(instances
 			(project "Balancing_cam"
 				(path "/4f3cb630-ed40-44c6-96ef-050dfa6679a9"
-					(reference "#PWR088")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)

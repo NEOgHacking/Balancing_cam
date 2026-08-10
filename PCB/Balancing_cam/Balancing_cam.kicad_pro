@@ -565,7 +565,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Balancing_cam.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -637,7 +637,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -691,7 +691,7 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -779,7 +779,7 @@
         "uuid": "4f3cb630-ed40-44c6-96ef-050dfa6679a9"
       }
     ],
-    "used_designators": "H1-4,SW1-3,JP1-4,R1-25,J1-10,Q1,F1-2,U1-7,D1-9,C1-46,#PWR1-94,#PWR148-149,L1-14",
+    "used_designators": "H1-4,SW1-3,TP1-27,JP1-4,R1-25,J1-10,Q1,F1-2,U1-7,D1-9,C1-46,#PWR1-94,#PWR148-149,L1-14",
     "variants": []
   },
   "sheets": [
