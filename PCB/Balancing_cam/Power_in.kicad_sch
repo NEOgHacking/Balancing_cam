@@ -6582,7 +6582,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -7701,7 +7701,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C26404"
+		(property "LCSC#" "C472437"
 			(at 201.93 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -7926,7 +7926,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C26404"
+		(property "LCSC#" "C472437"
 			(at 201.93 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -9095,7 +9095,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C14442"
+		(property "LCSC#" "C307331"
 			(at 232.41 38.1 90)
 			(hide yes)
 			(show_name no)
@@ -9735,7 +9735,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C14442"
+		(property "LCSC#" "C307331"
 			(at 198.12 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -10254,7 +10254,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C14442"
+		(property "LCSC#" "C307331"
 			(at 196.85 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -10569,7 +10569,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C14442"
+		(property "LCSC#" "C307331"
 			(at 193.04 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -10601,7 +10601,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -12148,7 +12148,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C14442"
+		(property "LCSC#" "C307331"
 			(at 232.41 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -12180,7 +12180,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -13760,7 +13760,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C14442"
+		(property "LCSC#" "C307331"
 			(at 198.12 93.98 0)
 			(hide yes)
 			(show_name no)
