@@ -565,7 +565,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "Balancing_cam.step",
+      "step": "Balancing_cam.glb",
       "vrml": ""
     },
     "page_layout_descr_file": ""
