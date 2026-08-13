@@ -1,4 +1,4 @@
-
+![image](Balancing_cam.png)
 # Balancing_cam
 This is a side project to improve on the ![balancing robot](https://gitlab.com/kloppertje/balancingrobot) with a new smaller esd protected pcb to prevent failures on the board, also to make the board smaller and make room for a second battery pack.
 # PCB
