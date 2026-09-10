@@ -1186,26 +1186,15 @@
 			(uuid "6fef9960-e5ba-4f16-a47e-9dde1fc61c56")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal.step"
+		(model "${KIPRJMOD}/lib/lib/lcsc/easyeda2kicad.3dshapes/CONN-SMD_P2.00_S2B-PH-SM4-TB-LF-SN.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 1 -3 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/lib/lib/lcsc/easyeda2kicad.3dshapes/CONN-SMD_P2.00_S2B-PH-SM4-TB-LF-SN.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -5816,20 +5805,9 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/RF_Module.3dshapes/ESP32-S2-MINI-1.step"
+		(model "${KIPRJMOD}/lib/lib/lcsc/easyeda2kicad.3dshapes/BULETM-SMD_ESP32-S3-MINI-1-N8.step"
 			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/lib/lib/lcsc/easyeda2kicad.3dshapes/BULETM-SMD_ESP32-S3-MINI-1-N8.wrl"
-			(offset
-				(xyz 0 -2.6 0)
+				(xyz 0 -0.1 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -10625,18 +10603,7 @@
 			(uuid "2872e626-c868-455e-8041-b2523817bbb0")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/VQFN-28-1EP_5x5mm_P0.5mm_EP3.7x3.7mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/lib/lib/lcsc/easyeda2kicad.3dshapes/TQFN-28_L5.0-W5.0-H0.8-P0.50.wrl"
+		(model "${KIPRJMOD}/lib/lib/lcsc/easyeda2kicad.3dshapes/TQFN-28_L5.0-W5.0-H0.8-P0.50.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11387,9 +11354,9 @@
 			(uuid "3e7f150b-d87d-4bb7-b164-c2391a756090")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/lib/lcsc/easyeda2kicad.3dshapes/SW-TH_SHOU-HAN_SS12D10G4.wrl"
+		(model "${KIPRJMOD}/lib/lib/lcsc/easyeda2kicad.3dshapes/SW-TH_SHOU-HAN_SS12D10G4.step"
 			(offset
-				(xyz 0 0 -2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -11772,12 +11739,6 @@
 		(path "/7de04a9d-fd10-4ec8-8d5b-4010f712afb8/ccacaee6-be5b-41f2-8260-63bfac9c52d3")
 		(sheetname "/Microcontroller/")
 		(sheetfile "Microcontroller.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "4" "3")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11913,9 +11874,9 @@
 			(uuid "c0fd9cb5-8d5c-4149-900d-4b1bd475704d")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/lib/lcsc/easyeda2kicad.3dshapes/LED-SMD_WS2812B-4020.wrl"
+		(model "${KIPRJMOD}/lib/lib/lcsc/easyeda2kicad.3dshapes/LED-SMD_WS2812B-4020.step"
 			(offset
-				(xyz 0 -0.5 0)
+				(xyz 2.15 0.95 1.55)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -15494,7 +15455,7 @@
 			(uuid "ffd69dce-e5a1-44f3-8f4e-2a00701857be")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Fuse.3dshapes/Fuseholder_Littelfuse_Nano2_154x.step"
+		(model "${KIPRJMOD}/lib/lib/lcsc/easyeda2kicad.3dshapes/FUSE-SMD_L9.8-W5.0-H3.8.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15502,18 +15463,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/lib/lib/lcsc/easyeda2kicad.3dshapes/FUSE-SMD_L9.8-W5.0-H3.8.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -18146,18 +18096,7 @@
 			(uuid "578f87e2-6b25-4e46-af7f-9199e3d82363")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/VQFN-28-1EP_5x5mm_P0.5mm_EP3.7x3.7mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/lib/lib/lcsc/easyeda2kicad.3dshapes/TQFN-28_L5.0-W5.0-H0.8-P0.50.wrl"
+		(model "${KIPRJMOD}/lib/lib/lcsc/easyeda2kicad.3dshapes/TQFN-28_L5.0-W5.0-H0.8-P0.50.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18483,18 +18422,7 @@
 			(uuid "efea6c06-f7c2-48e3-a7d6-aeb29024fe06")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Fuse.3dshapes/Fuseholder_Littelfuse_Nano2_154x.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/lib/lib/lcsc/easyeda2kicad.3dshapes/FUSE-SMD_L9.8-W5.0-H3.8.wrl"
+		(model "${KIPRJMOD}/lib/lib/lcsc/easyeda2kicad.3dshapes/FUSE-SMD_L9.8-W5.0-H3.8.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -22555,12 +22483,6 @@
 		(path "/7de04a9d-fd10-4ec8-8d5b-4010f712afb8/b36ae911-3b7f-4d3f-999e-f7327635d283")
 		(sheetname "/Microcontroller/")
 		(sheetfile "Microcontroller.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "4" "3")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22696,9 +22618,9 @@
 			(uuid "219ca14f-0f53-4043-a7b1-6bc7bbe1789c")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/lib/lcsc/easyeda2kicad.3dshapes/LED-SMD_WS2812B-4020.wrl"
+		(model "${KIPRJMOD}/lib/lib/lcsc/easyeda2kicad.3dshapes/LED-SMD_WS2812B-4020.step"
 			(offset
-				(xyz 0 -0.5 0)
+				(xyz 2.15 0.95 1.55)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -27215,26 +27137,15 @@
 			(uuid "03825a4a-52de-40bc-ba80-2ac93af9af7e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal.step"
+		(model "${KIPRJMOD}/lib/lib/lcsc/easyeda2kicad.3dshapes/CONN-SMD_P2.00_S2B-PH-SM4-TB-LF-SN.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 1 -3 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/lib/lib/lcsc/easyeda2kicad.3dshapes/CONN-SMD_P2.00_S2B-PH-SM4-TB-LF-SN.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)

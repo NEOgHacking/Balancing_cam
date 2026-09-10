@@ -563,9 +563,9 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "/home/simon/Documents/",
       "specctra_dsn": "",
-      "step": "Balancing_cam.glb",
+      "step": "Balancing_cam.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
