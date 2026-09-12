@@ -649,6 +649,9 @@ void initNetwork() {
     WiFi.softAP(robotName, kWifiApPassword);
     Serial << "AP named '" << WiFi.softAPSSID() << "' started, IP address: " << WiFi.softAPIP() << endl;
   }
+
+  Serial << "WiFi station MAC: " << WiFi.macAddress() << endl;
+  Serial << "WiFi AP MAC: " << WiFi.softAPmacAddress() << endl;
 }
 
 void initMqtt() {
